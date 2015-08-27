@@ -71,8 +71,8 @@ table {
 }
 
 td {
-	padding: 10px;
-	margin: 10px;
+	padding: 2px;
+	margin: 2px;
 }
 
 tr img {
@@ -185,6 +185,25 @@ a.twit { background-position: 0 -40px; }
 a.twit:hover { background-position: -40px -40px; }
 a.twit:active { background-position: -80px -40px; }
 
+/*/////////////////ANIMATED CONTAINERS/////////////////*/
+.animatedcontainer {
+	display: inline-block;
+}
+
+.animatedpanel {
+	position: relative; /*fixed is always in relation to browser window*/
+    background: #8CC63E;/*lightgreen*/
+    overflow: hidden;
+    width: 175px;
+    height: 20px;
+    margin: auto;
+}
+
+.animatedpanel:hover {
+   /* -webkit-animation: panelmation 5s; Chrome, Safari, Opera */
+   /* animation: panelmation 5s;*/
+    background: #006738;/*darkgreen*/
+}
 
 /*/////////////////RESPONSIVE/////////////////*/
 
