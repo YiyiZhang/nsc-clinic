@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-color: grey;
+	background-color: orange;
 	min-height: 100%;
 	height: 100%;
 	overflow:hidden;
@@ -22,17 +22,32 @@ body {
 h1 {
 	font-size: 25px;
 	padding-left: 10px;
+	text-align: center;
 }
 
 p {
 	padding-top: 10px;
 	padding-left: 10px;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+td {
+	padding: 2%;
 }
 
 /*/////////////////LOGO/////////////////*/
 
-.logo img {
-	z-index: 2;
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%
 }
 
 /*/////////////////FOOTER/////////////////*/
