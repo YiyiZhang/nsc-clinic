@@ -1,45 +1,83 @@
 /*LAYOUT*/
 
 html {
+	font-family: "Arial Black", Gadget, sans-serif;
 	min-height: 100%;
 	height: 100%;
 }
 
 body {
-	background-color: orange;
 	min-height: 100%;
 	height: 100%;
+	width: 100%;
 	overflow:hidden;
+	background-image: url("../images/background.png");
+	background-size: 100% 100%;
+	font-family: Arial;
 }
 
 .middleify {
 	position: relative;
 	margin: auto;
-	background-size: cover;
 	height: 80%;
 }
 
 h1 {
-	font-size: 25px;
-	padding-left: 10px;
-	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
 }
 
 p {
-	padding-top: 10px;
-	padding-left: 10px;
+	font-size: 12px;
 	text-align: center;
 }
 
+div.bar {
+	padding: 2px;
+	background-color: rgba(255,0,0,0.4);
+	width: 101%;
+	/*background-color: #df1f26; /*NSC red*/
+	margin-left: -1%;
+	text-align: center;
+	box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.weblink {
+	top: 0;
+	float: right;
+	padding-right: 2%;
+}
+
+div.weblink a {
+	color: orange;
+}
+
+div.weblink a:hover {
+	color: orange;
+}
+
+div.weblink a:visited {
+	color: orange;
+}
+
+/*/////////////////TABLE/////////////////*/
+
 table {
+	margin-top: -10px;
 	margin-left: auto;
     margin-right: auto;
-	width: 100%;
+	width: 50%;
 	text-align: center;
 }
 
 td {
-	padding: 2%;
+	padding: 10px;
+	margin: 10px;
+}
+
+tr img {
+	width: 175px;
+	height: 130px;
 }
 
 /*/////////////////LOGO/////////////////*/
@@ -50,21 +88,36 @@ td {
     width: 10%
 }
 
+.righttoremain {
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	background-image: url("../images/righttoremain.png");
+	z-index: 20;
+}
+
 /*/////////////////FOOTER/////////////////*/
 
 footer {
-	margin: auto;
+	position: fixed;
 	text-align:center;
-	height: 15%;
-	margin-top: 15px;
-	background-size: cover;
-	box-shadow: 2px 3px 4px 1px;
-	border-radius: 5px;
-	background-color: white;
+	height: 12%;
+	/*background-color: #b0a6e3; /*lavender*/
+	background-color: #f0db98; /*ochre*/
+	width: 100%;
+	margin-left: -1%;
+	bottom: 0;
+	padding-bottom: 10px;
 }
 
 footer h1 {
+	font-size: 14px;
+	color: #df1f26; /*NSC red*/
+}
+
+footer h2 {
 	font-size: 12px;
+	font-weight: bold;
 }
 
 .col-33 {
@@ -83,6 +136,55 @@ footer h1 {
 .marginless {
 	margin-left: 0;
 }
+
+
+/*/////////////////LINKS/////////////////*/
+
+a {
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;	
+}
+
+a:visited {
+	color: black;
+}
+
+/*/////// SOCIAL ////////*/
+
+#social {
+  position: fixed;
+  right: 20px;
+  width: 40px;
+  z-index: 2;
+  bottom: 18%;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+a.fbook, a.twit, a.gplus {
+  background: url(../images/social-icons.png) no-repeat;
+}
+
+a.fbook { background-position: 0 0; }
+a.fbook:hover { background-position: -40px 0; }
+a.fbook:active { background-position: -80px 0; }
+
+a.twit { background-position: 0 -40px; }
+a.twit:hover { background-position: -40px -40px; }
+a.twit:active { background-position: -80px -40px; }
+
 
 /*/////////////////RESPONSIVE/////////////////*/
 
