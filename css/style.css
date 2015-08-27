@@ -14,11 +14,9 @@ body {
 
 .middleify {
 	position: relative;
-	font-family: 'Nevis', Arial, sans-serif;
 	margin: auto;
 	background-size: cover;
 	height: 80%;
-	color: #C4E9F9; /*weirdbluewhite*/
 }
 
 h1 {
@@ -31,44 +29,27 @@ p {
 	padding-left: 10px;
 }
 
-/*/////////////////NAVIGATION/////////////////*/
-
-.menuarea {
-	background-color: #C4E9F9; /*weirdbluewhite*/
-	width: 100%;
-	height: 50px;
-	opacity: 0.6;
-	margin-top: -20px;
-}
-
 /*/////////////////LOGO/////////////////*/
 
 .logo img {
-	position: relative;
-	padding-left: 10px;
-	padding-top: 10px;
 	z-index: 2;
 }
 
 /*/////////////////FOOTER/////////////////*/
 
 footer {
-	font-family: 'Neutra', Arial, sans-serif;
-	font-size: 20px;
 	margin: auto;
 	text-align:center;
 	height: 15%;
 	margin-top: 15px;
-	color: #C4E9F9; /*weirdbluewhite*/
 	background-size: cover;
-	box-shadow: 2px 3px 4px 1px #895F27;
+	box-shadow: 2px 3px 4px 1px;
 	border-radius: 5px;
+	background-color: white;
 }
 
 footer h1 {
-	font-family: 'Neutra', Arial, sans-serif;
-	color: #F7931D;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .col-33 {
@@ -80,7 +61,6 @@ footer h1 {
 }
 
 .col-33 p {
-	font-family: 'Neutra', Arial, sans-serif;
 	font-size: 14px;
 	margin-top: 0px;
 }
@@ -95,4 +75,4 @@ footer h1 {
 	nav.navbar a {
 		font-size: 0.8em;
 	}
-}*/
+}

@@ -1,6 +1,6 @@
-/*$(function(){
+//$(function(){
 
-//ANIMATED BOXES 
+/*ANIMATED BOXES 
 	$(".animatedcontainer1").hover(
 		function(){//mousein
 			$(".animatedpanel1").animate(
