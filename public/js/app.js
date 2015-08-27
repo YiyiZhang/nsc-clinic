@@ -1,10 +1,10 @@
-$(function(){
+/*$(function(){
 
 //ANIMATED BOXES 
 	$(".animatedcontainer").hover(
 		function(){//mousein
 			$(".animatedpanel").animate(
-				{height: "40%"},600)
+				{height: "100%"},600)
 			},
 		function(){//mouseout
 			$(".animatedpanel").animate(

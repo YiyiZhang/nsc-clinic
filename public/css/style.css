@@ -24,7 +24,7 @@ body {
 
 h1 {
 	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 p {
@@ -36,7 +36,6 @@ div.bar {
 	padding: 2px;
 	background-color: rgba(255,0,0,0.4);
 	width: 101%;
-	/*background-color: #df1f26; /*NSC red*/
 	margin-left: -1%;
 	text-align: center;
 	box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.5);
@@ -60,39 +59,24 @@ div.weblink a:visited {
 	color: orange;
 }
 
-/*/////////////////TABLE/////////////////*/
-
-table {
-	margin-top: -10px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 50%;
-	text-align: center;
-}
-
-td {
-	padding: 2px;
-	margin: 2px;
-}
-
-tr img {
-	width: 175px;
-	height: 130px;
-}
-
 /*/////////////////LOGO/////////////////*/
 
 .logo {
     margin-left: auto;
     margin-right: auto;
-    width: 10%
+    height: 150px;
+    background-size: 150px;
+    background-image: url("../images/logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .righttoremain {
 	position: absolute;
 	left: 2%;
 	top: 2%;
-	background-image: url("../images/righttoremain.png");
+	/*background-image: url("../images/righttoremain.png");
+	background-repeat: no-repeat;*/
 	z-index: 20;
 }
 
@@ -107,7 +91,6 @@ footer {
 	width: 101%;
 	margin-left: -1%;
 	bottom: 0;
-	padding-bottom: 10px;
 }
 
 footer h1 {
@@ -129,14 +112,13 @@ footer h2 {
 }
 
 .col-33 p {
-	font-size: 14px;
+	font-size: 12px;
 	margin-top: 0px;
 }
 
 .marginless {
 	margin-left: 0;
 }
-
 
 /*/////////////////LINKS/////////////////*/
 
@@ -185,30 +167,154 @@ a.twit { background-position: 0 -40px; }
 a.twit:hover { background-position: -40px -40px; }
 a.twit:active { background-position: -80px -40px; }
 
-/*/////////////////ANIMATED CONTAINERS/////////////////*/
-.animatedcontainer {
-	display: inline-block;
+/*/////////////////TABLE/////////////////*/
+
+table {
+	margin-top: -10px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	text-align: center;
 }
 
-.animatedpanel {
-	position: relative; /*fixed is always in relation to browser window*/
-    background: #8CC63E;/*lightgreen*/
-    overflow: hidden;
-    width: 175px;
-    height: 20px;
-    margin: auto;
+td {
+	padding: 2px;
+	margin: 2px;
 }
 
-.animatedpanel:hover {
-   /* -webkit-animation: panelmation 5s; Chrome, Safari, Opera */
-   /* animation: panelmation 5s;*/
-    background: #006738;/*darkgreen*/
+tr img {
+	width: 175px;
+	height: 130px;
 }
 
 /*/////////////////RESPONSIVE/////////////////*/
 
-/*@media only screen and (max-width: 900px ) {
-	nav.navbar a {
-		font-size: 0.8em;
+@media only screen and (max-height: 680px ) {
+
+	tr img {
+		height: 50px;
+		width: auto;
+	}
+
+	.righttoremain {
+		position: absolute;
+		left: 2%;
+		top: 2%;
+		z-index: 20;
+	}
+
+	.righttoremain img{
+		width: 75%;
+	}
+
+	footer h1 {
+		position: relative;
+		font-size: 10px;
+		color: #df1f26; /*NSC red*/
+		bottom: 10px;
+	}
+
+	footer h2 {
+		font-size: 9px;
+		font-weight: bold;
+	}
+
+	.col-33 p {
+		font-size: 8px;
+		margin-top: 0px;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 6px;
+		font-weight: bold;
+	}
+
+	a:hover {
+		color: black;	
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	p {
+		font-size: 9px;
+	}
+
+}
+
+@media only screen and (max-width: 500px ) {
+	footer {
+		position: fixed;
+		text-align:center;
+		height: 12%;
+		/*background-color: #b0a6e3; /*lavender*/
+		background-color: #f0db98; /*ochre*/
+		width: 101%;
+		margin-left: -1%;
+	}
+
+	.middleify {
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	tr img {
+		height: 75px;
+		width: auto;
+	}
+
+	.righttoremain {
+		position: absolute;
+		left: 2%;
+		top: 2%;
+		z-index: 20;
+	}
+
+	.righttoremain img{
+		width: 50%;
+	}
+
+	footer h1 {
+		position: relative;
+		font-size: 8px;
+		color: #df1f26; /*NSC red*/
+	}
+
+	footer h2 {
+		font-size: 7px;
+		font-weight: bold;
+	}
+
+	.col-33 p {
+		font-size: 6px;
+		margin-top: 0px;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 6px;
+		font-weight: bold;
+	}
+
+	a:hover {
+		color: black;	
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	p {
+		font-size: 9px;
+	}
+
+	#social {
+	  position: fixed;
+	  right: 20px;
+	  width: 40px;
+	  z-index: 2;
+	  top: 10%;
 	}
 }
