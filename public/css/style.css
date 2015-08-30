@@ -89,7 +89,7 @@ footer {
 	height: 12%;
 	/*background-color: #b0a6e3; /*lavender*/
 	background-color: #f0db98; /*ochre*/
-	width: 101%;
+	width: 102%;
 	margin-left: -1%;
 	bottom: 0;
 	padding-bottom: 10px;
@@ -268,23 +268,23 @@ tr img {
 	}
 
 	footer h1 {
-		font-size: 10px;
+		font-size: 14px;
 	}
 
 	footer h2 {
-		font-size: 9px;
+		font-size: 10px;
 	}
 
 	.col-33 p {
-		font-size: 7px;
+		font-size: 10px;
 	}
 
 	a {
-		font-size: 7px;
+		font-size: 10px;
 	}
 
 	p {
-		font-size: 7px;
+		font-size: 10px;
 	}
 
 	#social {
@@ -293,7 +293,7 @@ tr img {
 
 }
 
-@media only screen and (min-width: 350px ) {
+@media only screen and (max-width: 350px ) {
 /*for mobile responsiveness*/
 	footer {
 		height: 12%;
