@@ -260,6 +260,7 @@ tr img {
 
 	tr img {
 		height: 75px;
+		width: auto;
 	}
 
 	.righttoremain {
@@ -292,7 +293,7 @@ tr img {
 
 }
 
-@media only screen and (max-width: 350px ) {
+@media only screen and (min-width: 350px ) {
 /*for mobile responsiveness*/
 	footer {
 		height: 12%;
@@ -307,6 +308,7 @@ tr img {
 
 	tr img {
 		height: 150px;
+		width: auto;
 	}
 
 /*END IMPORTANT table changes*/
