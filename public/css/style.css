@@ -292,7 +292,7 @@ tr img {
 
 }
 
-@media only screen and (max-width: 240px ) {
+@media only screen and (max-width: 350px ) {
 /*for mobile responsiveness*/
 	footer {
 		height: 12%;
