@@ -30,7 +30,7 @@ h1 {
 }
 
 p {
-	font-size: 12px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -86,7 +86,7 @@ div.weblink a:visited {
 footer {
 	position: fixed;
 	text-align:center;
-	height: 12%;
+	height: 15%;
 	/*background-color: #b0a6e3; /*lavender*/
 	background-color: #f0db98; /*ochre*/
 	width: 102%;
@@ -96,8 +96,10 @@ footer {
 }
 
 footer h1 {
-	font-size: 14px;
+	font-size: 20px;
 	color: #df1f26; /*NSC red*/
+	margin: 5px;
+	padding: 5px;
 }
 
 footer h2 {
@@ -212,7 +214,7 @@ tr img {
 
 	footer h1 {
 		position: relative;
-		font-size: 10px;
+		font-size: 14px;
 		color: #df1f26; /*NSC red*/
 		bottom: 10px;
 	}
@@ -318,7 +320,7 @@ tr img {
 	}
 
 	footer h1 {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	footer h2 {
